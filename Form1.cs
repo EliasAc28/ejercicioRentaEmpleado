@@ -77,8 +77,7 @@ namespace ejercicioRentaEmpleado
             txtNombre.Text = "";
             txtSueldo.Text = "";
             txtNombre.Focus();
-            //lennyn ayala gutierrez
-
+            //lennyn
         }
     }
 }
