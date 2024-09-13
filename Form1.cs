@@ -79,7 +79,7 @@ namespace ejercicioRentaEmpleado
             txtNombre.Focus();
             //lennyn yahir ayala
             //se me reinicio la maquina
-            
+            // probando otros cambios         
         }
     }
 }
