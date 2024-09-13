@@ -47,6 +47,8 @@ namespace ejercicioRentaEmpleado
                 renta = sueldo * 0.29;
             }
 
+            //fsfdfgsdfefewef
+
             //dsafsasfafafsfsaafsasffsa
             //intento otravez
             txtImpuesto.Text = renta.ToString();
