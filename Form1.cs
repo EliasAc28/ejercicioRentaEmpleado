@@ -63,5 +63,18 @@ namespace ejercicioRentaEmpleado
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtImpuesto.Text = "";
+            txtNombre.Text = "";
+            txtSueldo.Text = "";
+            txtNombre.Focus();
+        }
     }
 }

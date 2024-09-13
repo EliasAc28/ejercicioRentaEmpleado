@@ -42,7 +42,7 @@ namespace ejercicioRentaEmpleado
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(237, 66);
+            this.txtNombre.Location = new System.Drawing.Point(191, 43);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(76, 20);
@@ -50,7 +50,7 @@ namespace ejercicioRentaEmpleado
             // 
             // txtSueldo
             // 
-            this.txtSueldo.Location = new System.Drawing.Point(237, 115);
+            this.txtSueldo.Location = new System.Drawing.Point(191, 92);
             this.txtSueldo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSueldo.Name = "txtSueldo";
             this.txtSueldo.Size = new System.Drawing.Size(76, 20);
@@ -59,7 +59,7 @@ namespace ejercicioRentaEmpleado
             // txtImpuesto
             // 
             this.txtImpuesto.Enabled = false;
-            this.txtImpuesto.Location = new System.Drawing.Point(237, 167);
+            this.txtImpuesto.Location = new System.Drawing.Point(191, 144);
             this.txtImpuesto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtImpuesto.Name = "txtImpuesto";
             this.txtImpuesto.ReadOnly = true;
@@ -69,7 +69,7 @@ namespace ejercicioRentaEmpleado
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 66);
+            this.label1.Location = new System.Drawing.Point(47, 43);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 13);
@@ -79,7 +79,7 @@ namespace ejercicioRentaEmpleado
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 115);
+            this.label2.Location = new System.Drawing.Point(47, 92);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
@@ -89,7 +89,7 @@ namespace ejercicioRentaEmpleado
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(93, 167);
+            this.label3.Location = new System.Drawing.Point(47, 144);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 13);
@@ -98,10 +98,11 @@ namespace ejercicioRentaEmpleado
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(154, 211);
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(325, 52);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(56, 19);
+            this.btnCalcular.Size = new System.Drawing.Size(66, 25);
             this.btnCalcular.TabIndex = 6;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -109,29 +110,34 @@ namespace ejercicioRentaEmpleado
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(154, 256);
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(325, 102);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(56, 19);
+            this.btnLimpiar.Size = new System.Drawing.Size(66, 19);
             this.btnLimpiar.TabIndex = 7;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(154, 294);
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(325, 144);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(56, 19);
+            this.btnSalir.Size = new System.Drawing.Size(66, 19);
             this.btnSalir.TabIndex = 8;
-            this.btnSalir.Text = "Calcular";
+            this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 336);
+            this.BackColor = System.Drawing.Color.Lime;
+            this.ClientSize = new System.Drawing.Size(432, 258);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCalcular);
