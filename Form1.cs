@@ -64,11 +64,13 @@ namespace ejercicioRentaEmpleado
 
         }
 
+        //Este boton Sale del formulario.
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //Este boton limpia el formulario.
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtImpuesto.Text = "";
