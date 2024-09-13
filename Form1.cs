@@ -77,7 +77,7 @@ namespace ejercicioRentaEmpleado
             txtNombre.Text = "";
             txtSueldo.Text = "";
             txtNombre.Focus();
-            //lennyn
+            //lennyn yahir ayala
         }
     }
 }
