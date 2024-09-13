@@ -51,7 +51,7 @@ namespace ejercicioRentaEmpleado
             MessageBox.Show("Total a pagar renta: " + renta, "Salida", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
-
+            //asafkbaskfsabfafkbkafafasafs
         }
 
         private void Form1_Load(object sender, EventArgs e)
