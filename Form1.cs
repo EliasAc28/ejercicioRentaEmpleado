@@ -48,7 +48,7 @@ namespace ejercicioRentaEmpleado
             }
 
             //dsafsasfafafsfsaafsasffsa
-
+            //intento otravez
             txtImpuesto.Text = renta.ToString();
             MessageBox.Show("Total a pagar renta: " + renta, "Salida", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
