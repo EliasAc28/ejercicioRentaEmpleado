@@ -22,15 +22,15 @@ namespace ejercicioRentaEmpleado
             txtNombre.Text = "";
             double sueldo = double.Parse(txtSueldo.Text);
             double renta;
-            if (sueldo <= 325)
+            if (sueldo <= 365)
             {
                 renta = 0;
             }
-            else if (sueldo <= 700)
+            else if (sueldo <= 750)
             {
                 renta = sueldo * 0.15;
             }
-            else if (sueldo <= 1100)
+            else if (sueldo <= 1300)
             {
                 renta = sueldo * 0.17;
             }
