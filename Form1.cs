@@ -47,6 +47,8 @@ namespace ejercicioRentaEmpleado
                 renta = sueldo * 0.29;
             }
 
+            //dsafsasfafafsfsaafsasffsa
+
             txtImpuesto.Text = renta.ToString();
             MessageBox.Show("Total a pagar renta: " + renta, "Salida", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
