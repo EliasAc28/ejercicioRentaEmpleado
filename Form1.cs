@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 //Este es un comentario solo de prueba.
+//Otro comentario para probar
 namespace ejercicioRentaEmpleado
 {
     public partial class Form1 : Form
